@@ -7,10 +7,12 @@ Activar tu entorno virtual:
     venv\Scripts\activate
 
 Instalar dependencias:
-  pip install -r requirements.txt
+	pip install -r requirements.txt
 
 Migraciones
   - Crear BD llamada "infraestructura"
   - Configurar el archivo settings.py y conectarlo con tu BD
   - python manage.py makemigrations
   - python manage.py migrate
+Ejecutar:
+	python manage.py runserver
